@@ -15,9 +15,8 @@ public class ConvertVocal2Angka {
         
         System.out.println("\nConvert Kalimat Alay Angka (Vokal Ke Angka)\n");
     }
-    String identitas = "Rizaldy Raditya Erwanto / XRPL 5 / 36";
-    
-    tampilJudul(identitas);
-    
-    
+    public static void main(String[] args) {
+        String identitas = "Rizaldy Raditya Erwanto / X RPL 5 / 36";
+        tampilJudul(identitas);
+    }
 }

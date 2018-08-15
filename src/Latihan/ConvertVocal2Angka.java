@@ -5,6 +5,8 @@
  */
 package Latihan;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Rudi Erwanto
@@ -18,6 +20,15 @@ public class ConvertVocal2Angka {
     public static void main(String[] args) {
         String identitas = "Rizaldy Raditya Erwanto / X RPL 5 / 36";
         tampilJudul(identitas);
+        String kalimat = tampilInput();
+    }
+    private static String tampilInput () {
+        Scanner scanner = new Scanner(System.in);
         
+        System.out.println("Masukkan Kalimat : ");
+        String kalimat = scanner.nextLine();
+        System.out.println("Kalimat Asli : " + kalimat);
+        
+        return kalimat;
     }
 }

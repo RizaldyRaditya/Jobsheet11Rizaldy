@@ -10,13 +10,14 @@ package Latihan;
  * @author Rudi Erwanto
  */
 public class ConvertVocal2Angka {
-    private static void tampilJudul(String identitas) {
+    private static void tampilJudul(String identitas){
         System.out.println("Identitas : " + identitas);
         
-        System.out.println("\nConvert Kalimat Alay Angka (Vokal Ke Angka)\n");
+        System.out.println("\nConvert Kalimat Alay Angka (Vokal Ke Angka) \n");
     }
     public static void main(String[] args) {
         String identitas = "Rizaldy Raditya Erwanto / X RPL 5 / 36";
         tampilJudul(identitas);
+        
     }
 }

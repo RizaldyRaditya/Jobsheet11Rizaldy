@@ -40,7 +40,7 @@ public class ConvertVocal2Angka {
       for(int i=0;i<arConvert.length;i++)
           kalimat = kalimat.replace(arConvert [i][0], arConvert[i][1]);
         
-        return kalimat;
-        
+        return kalimat;   
     }
+    
 }

@@ -22,10 +22,8 @@ public class ConvertVocal2Angka {
         tampilJudul(identitas);
         String kalimat = tampilInput();
         String convert = vocal2Angka(kalimat);
-        String convert = vocal3Angka(kalimat);
         tampilPerKata(kalimat, convert);
         tampilHasil(convert);
-  
     }
     private static String tampilInput () {
         Scanner scanner = new Scanner(System.in);
@@ -41,16 +39,6 @@ public class ConvertVocal2Angka {
         {{'a','4'},{'i','1'}, {'u','2'}, {'e','3'}, {'o', '0'}};
         
         kalimat = kalimat.toLowerCase();
-      for(int i=0;i<arConvert.length;i++)
-          kalimat = kalimat.replace(arConvert [i][0], arConvert[i][1]);
-        
-        return kalimat;   
-    }
-    private static String vocal3Angka(String kalimat) {
-         char [][] arConvert = 
-        {{'a','4'},{'i','1'}, {'u','2'}, {'e','3'}, {'o', '0'}};
-        
-        kalimat = kalimat.toUpperCase();
       for(int i=0;i<arConvert.length;i++)
           kalimat = kalimat.replace(arConvert [i][0], arConvert[i][1]);
         
